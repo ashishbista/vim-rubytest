@@ -201,10 +201,10 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 if !hasmapto('<Plug>RubyTestRun')
-  map <unique> <Leader>t <Plug>RubyTestRun
+  map <unique> <Leader>r <Plug>RubyTestRun
 endif
 if !hasmapto('<Plug>RubyFileRun')
-  map <unique> <Leader>T <Plug>RubyFileRun
+  map <unique> <Leader>R <Plug>RubyFileRun
 endif
 if !hasmapto('<Plug>RubyTestRunLast')
   map <unique> <Leader>l <Plug>RubyTestRunLast
